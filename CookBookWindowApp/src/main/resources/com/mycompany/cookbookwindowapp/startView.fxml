@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="700.0" style="-fx-background-image: background.jpg;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.cookbookwindowapp.StartViewController">
+   <children>
+      <Label fx:id="titleLabel" layoutX="200.0" layoutY="48.0" prefHeight="53.0" prefWidth="299.0" text="Książka kucharska">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Button fx:id="menuButton" layoutX="243.0" layoutY="176.0" mnemonicParsing="false" onAction="#goToMenuView" prefHeight="53.0" prefWidth="212.0" text="Przejdź do menu głównego" />
+      <Button fx:id="loadDataButton" layoutX="244.0" layoutY="243.0" mnemonicParsing="false" onAction="#loadDataFromFile" prefHeight="45.0" prefWidth="212.0" text="Załaduj dane z pliku" />
+   </children>
+</Pane>

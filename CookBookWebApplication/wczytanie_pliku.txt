@@ -1,0 +1,1 @@
+Plik wejściowy to \CookBookWebApplication\InputFile

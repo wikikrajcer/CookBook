@@ -1,0 +1,15 @@
+com\mycompany\cookbookwindowapp\ModifyRecipeViewController.class
+com\mycompany\exception\WrongRecipeFormatException.class
+com\mycompany\cookbookwindowapp\PrintRecipesViewController.class
+com\mycompany\cookbookwindowapp\CreateRecipeViewController.class
+com\mycompany\cookbookwindowapp\MenuViewController.class
+com\mycompany\model\RecipeViewable.class
+com\mycompany\cookbookwindowapp\StartViewController.class
+com\mycompany\cookbookwindowapp\DeleteRecipeViewController.class
+com\mycompany\model\CookBookModel.class
+module-info.class
+com\mycompany\cookbookwindowapp\App.class
+com\mycompany\cookbookwindowapp\FindRecipeViewController.class
+com\mycompany\exception\WrongAmountException.class
+com\mycompany\model\RecipeModel.class
+com\mycompany\model\Cuisine.class

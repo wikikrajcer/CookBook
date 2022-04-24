@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.cookbookwindowapp.DeleteRecipeViewController">
+   <children>
+      <Label fx:id="deleteRecipeLabel" layoutX="288.0" layoutY="48.0" prefHeight="39.0" prefWidth="147.0" text="Usuń przepis">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="insertRecipeNameLabel" layoutX="176.0" layoutY="124.0" prefHeight="39.0" prefWidth="348.0" text="Podaj nazwę przepisu, który chcesz usunąć:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="recipeToDeleteTextField" layoutX="257.0" layoutY="184.0" prefHeight="31.0" prefWidth="213.0" />
+      <Button fx:id="backButton" layoutX="472.0" layoutY="398.0" mnemonicParsing="false" onAction="#backToMainView" text="Powrót do menu głównego" />
+      <Button fx:id="removeButton" layoutX="296.0" layoutY="240.0" mnemonicParsing="false" onAction="#removeRecipe" prefHeight="31.0" prefWidth="109.0" text="Usuń przepis" />
+   </children>
+</Pane>

@@ -1,0 +1,101 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 23 kwi 2022, 23:09:36
+    Author     : Wiktoria
+*/
+
+body
+{
+    background-color:rgb(236, 228, 220);
+    text-align: center;
+    background-image: url("background.jpg"); 
+    background-position: center top;
+    background-size: 100% auto;
+}
+
+.container
+{
+    margin: 0 auto;
+    background-color: rgba(233, 236, 252, 0.7);
+    width: 70%;
+    font-size:18px;
+}
+
+
+input[type=submit],input[type=button] {
+	box-shadow: 0px 7px 20px -7px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:8px;
+        width: 300px;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Verdana;
+	font-size:14px;
+	padding:7px 63px;
+	text-decoration:none;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        
+}
+input[type=submit],input[type=button]:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+input[type=submit],input[type=button]:active {
+	position:relative;
+	top:1px;
+}
+
+input[type=text],label{
+     padding: 2px;
+     font-size: 18px;
+     border-width: 1px;
+     border-color: #c5d4ec;
+     background-color: #ffffff;
+     color: #000000;
+     border-style: groove;
+     border-radius: 6px;
+     box-shadow: 2px 0px 6px rgba(35,59,125,.57);
+     width: 400px;
+}
+
+table {
+  width: 90%;
+  margin-right: auto;
+
+margin-left: auto;
+  background-color: #FFFFFF;
+  border-collapse: collapse;
+  border-width: 1px;
+  border-color: #9FC5F8;
+  border-style: solid;
+  color: #000000;
+}
+
+table td, table th {
+  border-width: 1px;
+  border-color: #9FC5F8;
+  border-style: solid;
+  padding: 5px;
+}
+
+table thead {
+  background-color: #599bb3;
+  color:white;
+}
+
+p {
+    margin-bottom: 3px;
+}
+
+label {
+
+    display: block;
+     margin-left: auto;     
+     margin-right: auto;
+
+}

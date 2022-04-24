@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.cookbookwindowapp.ModifyRecipeViewController">
+   <children>
+      <ChoiceBox fx:id="cuisineChoiceBox" layoutX="203.0" layoutY="200.0" prefHeight="37.0" prefWidth="164.0" />
+      <Button fx:id="deleteIngredientButton" layoutX="397.0" layoutY="272.0" mnemonicParsing="false" onAction="#deleteIngredient" text="Usuń składnik" />
+      <Button fx:id="addIngredientButton" layoutX="397.0" layoutY="238.0" mnemonicParsing="false" onAction="#addIngredient" text="Dodaj składnik" />
+      <ComboBox fx:id="ingredientsComboBox" layoutX="203.0" layoutY="252.0" prefHeight="37.0" prefWidth="164.0" />
+      <Button fx:id="modifyRecipeButton" layoutX="285.0" layoutY="360.0" mnemonicParsing="false" onAction="#modifyRecipeInCookBook" prefHeight="31.0" prefWidth="164.0" text="Zmodyfikuj przepis" />
+      <Button fx:id="backButton" layoutX="482.0" layoutY="408.0" mnemonicParsing="false" onAction="#backtoMenuView" text="Powrót do menu głównego" />
+      <TextField fx:id="dishTextField" layoutX="203.0" layoutY="111.0" prefHeight="37.0" prefWidth="285.0" />
+      <TextField fx:id="prepatationTimeTextField" layoutX="203.0" layoutY="304.0" prefHeight="37.0" prefWidth="107.0" />
+      <TextField fx:id="authorTextField" layoutX="203.0" layoutY="155.0" prefHeight="37.0" prefWidth="285.0" />
+      <Label fx:id="preparationTimeLabel" layoutX="57.0" layoutY="312.0" prefHeight="21.0" prefWidth="146.0" text="Czas przygotowania:" />
+      <Label fx:id="ingredientsLabel" layoutX="57.0" layoutY="260.0" prefHeight="21.0" prefWidth="115.0" text="Składniki:" />
+      <Label fx:id="cuisineLabel" layoutX="57.0" layoutY="208.0" prefHeight="21.0" prefWidth="115.0" text="Kuchnia:" />
+      <Label fx:id="authorLabel" layoutX="57.0" layoutY="160.0" prefHeight="21.0" prefWidth="115.0" text="Autor:" />
+      <Label fx:id="dishLabel" layoutX="57.0" layoutY="111.0" prefHeight="21.0" prefWidth="115.0" text="Nazwa potrawy:" />
+      <Label fx:id="modifyRecipeLabel" layoutX="252.0" layoutY="32.0" prefHeight="44.0" prefWidth="240.0" text="Zmodyfikuj przepis:">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

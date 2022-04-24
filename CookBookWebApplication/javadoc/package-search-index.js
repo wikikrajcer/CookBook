@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"com.mycompany.cookbookwebapplication.exception"},{"l":"com.mycompany.cookbookwebapplication.model"},{"l":"com.mycompany.cookbookwebapplication.servlets"}]

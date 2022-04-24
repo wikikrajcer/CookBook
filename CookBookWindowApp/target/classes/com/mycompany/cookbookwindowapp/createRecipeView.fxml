@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.cookbookwindowapp.CreateRecipeViewController">
+   <children>
+      <Label fx:id="createRecipeLabel" layoutX="242.0" layoutY="22.0" prefHeight="44.0" prefWidth="240.0" text="Utwórz nowy przepis:">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="dishLabel" layoutX="47.0" layoutY="101.0" prefHeight="21.0" prefWidth="115.0" text="Nazwa potrawy:" />
+      <Label fx:id="authorLabel" layoutX="47.0" layoutY="150.0" prefHeight="21.0" prefWidth="115.0" text="Autor:" />
+      <Label fx:id="cuisineLabel" layoutX="47.0" layoutY="198.0" prefHeight="21.0" prefWidth="115.0" text="Kuchnia:" />
+      <Label fx:id="ingredientsLabel" layoutX="47.0" layoutY="250.0" prefHeight="21.0" prefWidth="115.0" text="Składniki:" />
+      <Label fx:id="preparationTimeLabel" layoutX="47.0" layoutY="302.0" prefHeight="21.0" prefWidth="146.0" text="Czas przygotowania:" />
+      <TextField fx:id="authorTextField" layoutX="193.0" layoutY="145.0" prefHeight="37.0" prefWidth="285.0" />
+      <TextField fx:id="prepatationTimeTextField" layoutX="193.0" layoutY="294.0" prefHeight="37.0" prefWidth="107.0" />
+      <TextField fx:id="dishTextField" layoutX="193.0" layoutY="101.0" prefHeight="37.0" prefWidth="285.0" />
+      <Button fx:id="backButton" layoutX="472.0" layoutY="398.0" mnemonicParsing="false" onAction="#backtoMenuView" text="Powrót do menu głównego" />
+      <Button fx:id="createRecipeButton" layoutX="301.0" layoutY="350.0" mnemonicParsing="false" onAction="#createRecipeInCookBook" prefHeight="31.0" prefWidth="122.0" text="Utwórz przepis" />
+      <ComboBox fx:id="ingredientsComboBox" layoutX="193.0" layoutY="242.0" prefHeight="37.0" prefWidth="164.0" />
+      <Button fx:id="addIngredientButton" layoutX="387.0" layoutY="228.0" mnemonicParsing="false" onAction="#addIngredient" text="Dodaj składnik" />
+      <Button fx:id="deleteIngredientButton" layoutX="387.0" layoutY="262.0" mnemonicParsing="false" onAction="#deleteIngredient" text="Usuń składnik" />
+      <ChoiceBox fx:id="cuisineChoiceBox" layoutX="193.0" layoutY="190.0" prefHeight="37.0" prefWidth="164.0" />
+   </children>
+</Pane>

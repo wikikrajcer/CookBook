@@ -1,0 +1,4 @@
+--patch-module
+com.mycompany.cookbookwindowapp=_
+--add-reads
+com.mycompany.cookbookwindowapp=ALL-UNNAMED

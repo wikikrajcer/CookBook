@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.cookbookwindowapp.PrintRecipesViewController">
+   <children>
+      <Label fx:id="cookBookListLabel" layoutX="204.0" layoutY="25.0" prefHeight="40.0" prefWidth="292.0" text="Lista wszystkich przepisów">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="backButton" layoutX="472.0" layoutY="398.0" mnemonicParsing="false" onAction="#backToMainView" text="Powrót do menu głównego" />
+      <TableView fx:id="recipesTable" layoutX="13.0" layoutY="78.0" prefHeight="295.0" prefWidth="675.0">
+        <columns>
+          <TableColumn fx:id="dishColumn" prefWidth="130.0" text="Nazwa potrawy" />
+          <TableColumn fx:id="authorColumn" prefWidth="100.0" text="Autor" />
+            <TableColumn fx:id="preparationTimeColumn" prefWidth="160.0" text="Czas przygotowania" />
+            <TableColumn fx:id="cuisineColumn" prefWidth="100.0" text="Kuchnia" />
+            <TableColumn fx:id="ingredientsColumn" prefWidth="184.0" text="Składniki" />
+        </columns>
+      </TableView>
+      <Button fx:id="editButton" layoutX="190.0" layoutY="383.0" mnemonicParsing="false" onAction="#editRecipe" text="Edytuj" />
+      <Button fx:id="deleteButton" layoutX="126.0" layoutY="383.0" mnemonicParsing="false" onAction="#deleteRecipe" text="Usuń" />
+   </children>
+</Pane>

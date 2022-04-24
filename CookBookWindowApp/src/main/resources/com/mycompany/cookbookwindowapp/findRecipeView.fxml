@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.cookbookwindowapp.FindRecipeViewController">
+   <children>
+      <Button fx:id="backButton" layoutX="472.0" layoutY="398.0" mnemonicParsing="false" onAction="#backToMenuView" text="Powrót do menu głównego" />
+      <Label fx:id="findRecipeLabel" layoutX="243.0" layoutY="14.0" prefHeight="39.0" prefWidth="201.0" text="Wyszukaj przepis">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="recipeToFindTextField" layoutX="442.0" layoutY="66.0" />
+      <Label fx:id="insertRecipeNameLabel" layoutX="58.0" layoutY="62.0" prefHeight="39.0" prefWidth="367.0" text="Podaj nazwę przepisu, który chcesz wyszukać:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="findRecipeButton" layoutX="266.0" layoutY="101.0" mnemonicParsing="false" onAction="#findRecipe" text="Wyszukaj przepis" />
+      <Label fx:id="preparationTimeLabel" layoutX="111.0" layoutY="367.0" prefHeight="21.0" prefWidth="146.0" text="Czas przygotowania:" />
+      <Label fx:id="ingredientsLabel" layoutX="111.0" layoutY="315.0" prefHeight="21.0" prefWidth="115.0" text="Składniki:" />
+      <Label fx:id="cuisineLabel" layoutX="111.0" layoutY="263.0" prefHeight="21.0" prefWidth="115.0" text="Kuchnia:" />
+      <Label fx:id="authorLabel" layoutX="111.0" layoutY="215.0" prefHeight="21.0" prefWidth="115.0" text="Autor:" />
+      <Label fx:id="dishLabel" layoutX="111.0" layoutY="166.0" prefHeight="21.0" prefWidth="115.0" text="Nazwa potrawy:" />
+      <Label fx:id="foundDishLabel" layoutX="276.0" layoutY="166.0" prefHeight="21.0" prefWidth="300.0" />
+      <Label fx:id="FoundAuthorLabel" layoutX="275.0" layoutY="215.0" prefHeight="21.0" prefWidth="300.0" />
+      <Label fx:id="foundCuisineLabel" layoutX="276.0" layoutY="263.0" prefHeight="21.0" prefWidth="300.0" />
+      <Label fx:id="foundIngerdientsLabel" layoutX="275.0" layoutY="315.0" prefHeight="21.0" prefWidth="300.0" />
+      <Label fx:id="foundPreparationTimeLabel" layoutX="276.0" layoutY="367.0" prefHeight="21.0" prefWidth="300.0" />
+   </children>
+</Pane>

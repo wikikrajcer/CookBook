@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.cookbookwindowapp.MenuViewController">
+   <children>
+      <Label fx:id="selectMenuOptionLabel" layoutX="150.0" layoutY="21.0" prefHeight="61.0" prefWidth="378.0" text="Wybierz odpowiednią opcję menu:">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="printRecipesButton" layoutX="227.0" layoutY="151.0" mnemonicParsing="false" onAction="#printAllRecipesFromCookBook" prefHeight="36.0" prefWidth="247.0" text="Wyświetl wszystkie przepisy" />
+      <Button fx:id="createRecipeButton" layoutX="227.0" layoutY="107.0" mnemonicParsing="false" onAction="#createRecipeInCookBook" prefHeight="36.0" prefWidth="247.0" text="Dodaj nowy przepis" />
+      <Button fx:id="deleteRecipeButton" layoutX="227.0" layoutY="197.0" mnemonicParsing="false" onAction="#deleteRecipeFromCookBook" prefHeight="36.0" prefWidth="247.0" text="Usuń przepis po nazwie" />
+      <Button fx:id="findRecipeButton" layoutX="227.0" layoutY="245.0" mnemonicParsing="false" onAction="#findRecipeInCookBook" prefHeight="36.0" prefWidth="247.0" text="Wyszukaj przepis po nazwie" />
+      <Button fx:id="backButton" layoutX="227.0" layoutY="296.0" mnemonicParsing="false" onAction="#backToMainView" prefHeight="36.0" prefWidth="247.0" text="Wyjdź" />
+   </children>
+</Pane>
